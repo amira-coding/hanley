@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../style/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header -->
+    <section class="header header2">
+        <nav>
+            <div class="logo">
+                <img src="./images/ChatGPT Image Apr 5, 2025, 10_27_52 PM.png" alt="">
+            </div>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="courses.html">Courses</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Contact Us</h1>
+        </div> 
+    </section>
+    
+    <!-- contact form -->
+    <div class="contacts">
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.7266354959393!2d42.823277375829015!3d9.357440883759708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x162e3707a31003e7%3A0x112f1acd1a897751!2sJigjiga%20University!5e0!3m2!1sen!2set!4v1743539633725!5m2!1sen!2set" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+        <div class="contact-form">
+            
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+
+ <!-- Footer -->
+<footer>
+    <div class="footer-container">
+      <!-- Logo -->
+      <div class="footer-logo">
+        <img src="./images/ChatGPT Image Apr 5, 2025, 10_26_54 PM.png" alt="Hanlye University Logo" class="logo">
+      </div>
+  
+      <!-- Contact -->
+      <div class="footer-section">
+        <h2><i class="fas fa-map-marker-alt"></i> Contact Us</h2>
+        <p><i class="fas fa-map-marker-alt"></i> 123 Hanley-UNI, Jigjiga, Ethiopia</p>
+        <p><i class="fas fa-phone-alt"></i> +251923 456 789</p>
+        <p><i class="fas fa-envelope"></i> info@hanlyeuniversity.edu</p>
+      </div>
+  
+      <!--  Links -->
+      <div class="footer-section">
+        <h2><i class="fas fa-graduation-cap"></i> Academics</h2>
+        <ul>
+          <li><a href="#">Undergraduate Programs</a></li>
+          <li><a href="#">Graduate Programs</a></li>
+          <li><a href="#">International Students</a></li>
+          <li><a href="#">Online Courses</a></li>
+        </ul>
+      </div>
+  
+      <!-- University Links -->
+      <div class="footer-section">
+        <h2><i class="fas fa-university"></i> University</h2>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Campus Life</a></li>
+          <li><a href="#">Research</a></li>
+         
+        </ul>
+      </div>
+    </div>
+  
+    <!-- Newsletter -->
+    <div class="footer-newsletter">
+      <h2><i class="fas fa-envelope"></i> Subscribe</h2>
+      <p>Stay updated with news, events, and more!</p>
+      <form action="#" method="post">
+        <input type="email" name="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  
+    <!-- Copyright  -->
+    <div class="footer-bottom">
+      <p>© 2025 Hanlye University. All rights reserved. | Designed by Amira Abdi</p>
+    </div>
+  </footer>
+
+<!--javascript file for toggle menu -->
+<script src="script.js"></script>
+</body>
+</html> 
