@@ -358,11 +358,11 @@ nav i{
     width: 80%;
     margin: 100px auto;
     background-image: linear-gradient(rgba(0, 0, 0, 0.595),rgba(0,0,0,0.7)),url(../images/edi-kurniawan-Mq4wJuX1-OQ-unsplash.jpg);
-   background-position: center;
-   background-size: cover;
-   border-radius: 10px;
-   text-align: center;
-   padding: 200px 0;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 200px 0;
 }
 .cta h1{
     color: white;
